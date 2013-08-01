@@ -19,6 +19,7 @@
 		550028C917AA050B00049590 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550028C817AA050B00049590 /* ViewController.m */; };
 		550028CC17AA050B00049590 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550028CA17AA050B00049590 /* ViewController_iPhone.xib */; };
 		550028CF17AA050B00049590 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550028CD17AA050B00049590 /* ViewController_iPad.xib */; };
+		5500291417AA090C00049590 /* DTBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5500291317AA090C00049590 /* DTBlockAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,19 +27,21 @@
 		550028AF17AA050A00049590 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		550028B117AA050A00049590 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		550028B317AA050A00049590 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		550028B717AA050A00049590 /* DTBlockAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DTBlockAlertView-Info.plist"; sourceTree = "<group>"; };
+		550028B717AA050A00049590 /* DTBlockAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DTBlockAlertView-Info.plist"; path = "../DTBlockAlertViewDemo/DTBlockAlertView-Info.plist"; sourceTree = "<group>"; };
 		550028B917AA050A00049590 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		550028BB17AA050A00049590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		550028BD17AA050A00049590 /* DTBlockAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTBlockAlertView-Prefix.pch"; sourceTree = "<group>"; };
-		550028BE17AA050A00049590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		550028BF17AA050A00049590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		550028C117AA050A00049590 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		550028C317AA050A00049590 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		550028C517AA050B00049590 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		550028C717AA050B00049590 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		550028C817AA050B00049590 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		550028BB17AA050A00049590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../DTBlockAlertViewDemo/main.m; sourceTree = "<group>"; };
+		550028BD17AA050A00049590 /* DTBlockAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "DTBlockAlertView-Prefix.pch"; path = "../DTBlockAlertViewDemo/DTBlockAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		550028BE17AA050A00049590 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../DTBlockAlertViewDemo/AppDelegate.h; sourceTree = "<group>"; };
+		550028BF17AA050A00049590 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../DTBlockAlertViewDemo/AppDelegate.m; sourceTree = "<group>"; };
+		550028C117AA050A00049590 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../DTBlockAlertViewDemo/Default.png; sourceTree = "<group>"; };
+		550028C317AA050A00049590 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../DTBlockAlertViewDemo/Default@2x.png"; sourceTree = "<group>"; };
+		550028C517AA050B00049590 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../DTBlockAlertViewDemo/Default-568h@2x.png"; sourceTree = "<group>"; };
+		550028C717AA050B00049590 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../DTBlockAlertViewDemo/ViewController.h; sourceTree = "<group>"; };
+		550028C817AA050B00049590 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../DTBlockAlertViewDemo/ViewController.m; sourceTree = "<group>"; };
 		550028CB17AA050B00049590 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		550028CE17AA050B00049590 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		5500291217AA090C00049590 /* DTBlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBlockAlertView.h; sourceTree = "<group>"; };
+		5500291317AA090C00049590 /* DTBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBlockAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,8 @@
 		550028A317AA050A00049590 = {
 			isa = PBXGroup;
 			children = (
-				550028B517AA050A00049590 /* DTBlockAlertView */,
+				550028D517AA081B00049590 /* DTBlockAlertView */,
+				550028B517AA050A00049590 /* DTBlockAlertViewDemo */,
 				550028AE17AA050A00049590 /* Frameworks */,
 				550028AD17AA050A00049590 /* Products */,
 			);
@@ -82,7 +86,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		550028B517AA050A00049590 /* DTBlockAlertView */ = {
+		550028B517AA050A00049590 /* DTBlockAlertViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				550028BE17AA050A00049590 /* AppDelegate.h */,
@@ -93,6 +97,7 @@
 				550028CD17AA050B00049590 /* ViewController_iPad.xib */,
 				550028B617AA050A00049590 /* Supporting Files */,
 			);
+			name = DTBlockAlertViewDemo;
 			path = DTBlockAlertView;
 			sourceTree = "<group>";
 		};
@@ -108,6 +113,15 @@
 				550028C517AA050B00049590 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		550028D517AA081B00049590 /* DTBlockAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				5500291217AA090C00049590 /* DTBlockAlertView.h */,
+				5500291317AA090C00049590 /* DTBlockAlertView.m */,
+			);
+			path = DTBlockAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +194,7 @@
 				550028BC17AA050A00049590 /* main.m in Sources */,
 				550028C017AA050A00049590 /* AppDelegate.m in Sources */,
 				550028C917AA050B00049590 /* ViewController.m in Sources */,
+				5500291417AA090C00049590 /* DTBlockAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +207,7 @@
 				550028B917AA050A00049590 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = ../DTBlockAlertViewDemo;
 			sourceTree = "<group>";
 		};
 		550028CA17AA050B00049590 /* ViewController_iPhone.xib */ = {
@@ -200,6 +216,7 @@
 				550028CB17AA050B00049590 /* en */,
 			);
 			name = ViewController_iPhone.xib;
+			path = ../DTBlockAlertViewDemo;
 			sourceTree = "<group>";
 		};
 		550028CD17AA050B00049590 /* ViewController_iPad.xib */ = {
@@ -208,6 +225,7 @@
 				550028CE17AA050B00049590 /* en */,
 			);
 			name = ViewController_iPad.xib;
+			path = ../DTBlockAlertViewDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,10 +290,14 @@
 		550028D317AA050B00049590 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Eden Li (85B39NPV8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eden Li (85B39NPV8D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DTBlockAlertView/DTBlockAlertView-Prefix.pch";
-				INFOPLIST_FILE = "DTBlockAlertView/DTBlockAlertView-Info.plist";
+				GCC_PREFIX_HEADER = "DTBlockAlertViewDemo/DTBlockAlertView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DTBlockAlertViewDemo/DTBlockAlertView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E8145E22-C4C6-4768-ADDA-12F193DDFF52";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E8145E22-C4C6-4768-ADDA-12F193DDFF52";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,10 +305,14 @@
 		550028D417AA050B00049590 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Eden Li (85B39NPV8D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Eden Li (85B39NPV8D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DTBlockAlertView/DTBlockAlertView-Prefix.pch";
-				INFOPLIST_FILE = "DTBlockAlertView/DTBlockAlertView-Info.plist";
+				GCC_PREFIX_HEADER = "DTBlockAlertViewDemo/DTBlockAlertView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DTBlockAlertViewDemo/DTBlockAlertView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E8145E22-C4C6-4768-ADDA-12F193DDFF52";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E8145E22-C4C6-4768-ADDA-12F193DDFF52";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -310,6 +336,7 @@
 				550028D417AA050B00049590 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
