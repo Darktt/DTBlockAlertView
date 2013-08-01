@@ -43,6 +43,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    DTActionSheetButtonClickBlock <#variables#> = ^(NSUInteger buttonIndex, NSUInteger destructiveButtonIndex, NSUInteger cancelButtonIndex){
+        <#code#>
+    };
 }
 
 @end
