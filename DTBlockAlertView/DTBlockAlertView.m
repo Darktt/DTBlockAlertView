@@ -87,7 +87,7 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    _block(buttonIndex, self.cancelButtonIndex);
+    _block(self, buttonIndex, self.cancelButtonIndex);
 }
 
 @end

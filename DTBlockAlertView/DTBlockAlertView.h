@@ -19,7 +19,7 @@
 
 @interface DTBlockAlertView : UIAlertView
 
-typedef void (^DTAlertViewButtonClickedBlock) (NSUInteger buttonIndex, NSUInteger cancelButtonIndex);
+typedef void (^DTAlertViewButtonClickedBlock) (DTBlockAlertView *alertView, NSUInteger buttonIndex, NSUInteger cancelButtonIndex);
 
 + (id)alertViewUseBlock:(DTAlertViewButtonClickedBlock)block title:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 

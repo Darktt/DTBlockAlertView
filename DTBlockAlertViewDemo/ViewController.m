@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    DTAlertViewButtonClickedBlock block = ^(NSUInteger buttonIndex, NSUInteger cancelButtonIndex){
+    DTAlertViewButtonClickedBlock block = ^(DTBlockAlertView *alertView, NSUInteger buttonIndex, NSUInteger cancelButtonIndex){
         NSString *message;
         
         if (buttonIndex == cancelButtonIndex) {
