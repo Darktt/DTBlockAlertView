@@ -23,7 +23,7 @@ DTBlockAlertView *alertView = [DTBlockAlertView alertViewUseBlock:block title:@"
 
 Declare block
 ``` objective-c
-DTAlertViewButtonClickedBlock block = ^(NSUInteger buttonIndex, NSUInteger cancelButtonIndex){
+DTAlertViewButtonClickedBlock block = ^(DTBlockAlertView *alertView, NSUInteger buttonIndex, NSUInteger cancelButtonIndex){
 	Code in block
 };
 ```
