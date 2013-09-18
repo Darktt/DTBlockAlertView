@@ -27,7 +27,7 @@
 
 + (id)alertViewUseBlock:(DTAlertViewButtonClickedBlock)block title:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ...
 {
-    DTBlockAlertView *alertView = [[DTBlockAlertView alloc] initWithUseBlock:block title:title message:message cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil];
+    DTBlockAlertView *alertView = [[[DTBlockAlertView alloc] initWithUseBlock:block title:title message:message cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil] autorelease];
     
     va_list args;
     
