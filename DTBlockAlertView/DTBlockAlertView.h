@@ -21,8 +21,8 @@
 
 typedef void (^DTAlertViewButtonClickedBlock) (DTBlockAlertView *alertView, NSUInteger buttonIndex, NSUInteger cancelButtonIndex);
 
-#define OKButtonTitle NSLocalizedString(@"OK", @"")
-#define CancelButtonTitle NSLocalizedString(@"Cancel", @"")
+#define kOKButtonTitle NSLocalizedString(@"OK", @"")
+#define kCancelButtonTitle NSLocalizedString(@"Cancel", @"")
 
 + (id)alertViewUseBlock:(DTAlertViewButtonClickedBlock)block title:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION;
 
